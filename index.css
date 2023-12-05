@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Evita que el padding y el borde afecten el tamaño total del elemento */
+}
+
+body {
+    text-align: center;
+    background: url(icon/black-brick-wall-textured-background.jpg);
+    margin: 0; /* Asegura que no haya márgenes predeterminados en el body */
+}
+
+.todo {
+    width: 100%;
+    max-width: 960px; /* Ajusta el ancho máximo para evitar que la página se expanda indefinidamente en pantallas grandes */
+    margin: 0 auto; /* Centra el contenedor */
+    background-color: white;
+    padding: 15px;
+}
+
+.titulo {
+    background: #EB984E;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    text-align: center;
+    background: #00FFD8;
+    padding: 5px 15px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion {
+    margin: 20px 0; /* Espaciado alrededor de la sección */
+}
+
+.art {
+    background-color: #9E9E9E;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.columna {
+    width: 100%; /* Ocupa el ancho completo en dispositivos pequeños */
+    max-width: 300px; /* Ancho máximo en dispositivos grandes */
+    margin: 20px 0;
+    padding: 0 20px; /* Agrega espacio de relleno en los lados para dispositivos pequeños */
+}
+
+.pie {
+    padding: 20px;
+    background: #283747;
+    color: white;
+    clear: both;
+}
+
+.com {
+    text-align: right;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.art time {
+    color: cornflowerblue;
+}
+
+.img {
+    width: 100%; /* Haz que la imagen ocupe el ancho completo de su contenedor */
+    max-width: 300px; /* Establece un ancho máximo */
+    display: block;
+    margin: 20px auto;
+    border: 3px solid black;
+}
+
+.col, .cal {
+    border: 1px solid black;
+    padding: 20px; /* Reduce el espacio de relleno en bloques de mensajes */
+    background-color: #EB984E;
+    margin-bottom: 20px;
+}
+
+.fotos img {
+    width: 100%;
+    border: solid 1px black;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: block;
+}
